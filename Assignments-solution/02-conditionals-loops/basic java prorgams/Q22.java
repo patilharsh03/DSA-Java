@@ -10,11 +10,13 @@ public class Q22 {
         System.out.print("Enter a number: ");
         int num =  in.nextInt();
 
-        int ans = 0;
+        int sum = 0, mul = 1, temp;
          while (num > 0) {
-             int rem = num % 10;
-             int product = rem;
-
+             temp = num % 10;
+             sum = sum + temp;
+             mul = mul * temp;
+             num = num / 10;
          }
+         System.out.println("Difference: " + (mul - sum));
     }
 }
