@@ -2,7 +2,8 @@
     "java.project.sourcePaths": [
         "code/02-conditionals-loops",
         "code/01-first-java-program",
+        "Assignments-solution/02-conditionals-loops/basic java prorgams",
         "Assignments-solution/01-first-java",
-        "Assignments-solution/02-conditionals-loops/basic java prorgams"
+        "Assignments-solution/02-conditionals-loops/Intermediate java programs"
     ]
 }
