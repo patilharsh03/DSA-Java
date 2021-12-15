@@ -45,8 +45,8 @@ all.
 13. Addition Of Two Numbers
 14. Sum Of N Numbers
 15. Armstrong Number In Java
-16. Find Ncr & Npr // will do later.....
-17. Reverse A String In Java // later.....
+16. Find Ncr & Npr 
+17. Reverse A String In Java 
 18. Find if a number is palindrome or not 
 19. Future Investment Value
 20. HCF Of Two Numbers Program
