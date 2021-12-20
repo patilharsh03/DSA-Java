@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class RichestCustomerWealth {
@@ -10,10 +11,14 @@ public class RichestCustomerWealth {
                 accounts[i][j] = in.nextInt();
             }
         }
+            for (int[] a : accounts) {
+                System.out.println(Arrays.toString(a));
+            }
+            System.out.println("Maximum Wealth= " + maximumWealth(accounts));
     }
 
     static int maximumWealth(int[][] accounts) {
-        int sum = 0; max = 0;
+        int sum = 0; int max = 0;
         for (int customer = 0; customer < accounts.length; customer++) {
             sum = 0;
             for (int bank = 0; bank < accounts[customer].length; bank++) {
@@ -22,7 +27,7 @@ public class RichestCustomerWealth {
             if (sum > max) {
                 max = sum;
             }
-            return max;
         }
+        return max;
     }
 }
